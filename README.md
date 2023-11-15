@@ -1,4 +1,4 @@
-<h3 align="center"><img src="" height="64"><br>An Unofficial VS Code - GPT 4 Turbo extension</h3>
+<!-- <h3 align="center"><img src="" height="64"><br>An Unofficial VS Code - GPT 4 Turbo extension</h3> -->
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=gencay.vscode-chatgpt" alt="Marketplace version">

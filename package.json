@@ -1,9 +1,9 @@
 {
-  "name": "vscode-chatgpt",
+  "name": "vscode-gpt-4-turbo-extension",
   "publisher": "CongLeSolutionX",
-  "displayName": "vscode-chatgpt",
+  "displayName": "vscode-gpt-4-turbo-extension",
   "icon": "images/ai-logo.png",
-  "description": "vscode-chatgpt",
+  "description": "vscode-gpt-4-turbo-extension",
   "version": "3.9.7-0",
   "aiKey": "",
   "repository": {
@@ -42,52 +42,52 @@
     "menus": {
       "editor/context": [
         {
-          "command": "vscode-chatgpt.generateCode",
+          "command": "vscode-gpt-4-turbo-extension.generateCode",
           "group": "chatGpt@1",
           "when": "editorHasSelection && generateCode-enabled"
         },
         {
-          "command": "vscode-chatgpt.addTests",
+          "command": "vscode-gpt-4-turbo-extension.addTests",
           "group": "chatGpt@2",
           "when": "editorHasSelection && addTests-enabled"
         },
         {
-          "command": "vscode-chatgpt.findProblems",
+          "command": "vscode-gpt-4-turbo-extension.findProblems",
           "group": "chatGpt@3",
           "when": "editorHasSelection && findProblems-enabled"
         },
         {
-          "command": "vscode-chatgpt.optimize",
+          "command": "vscode-gpt-4-turbo-extension.optimize",
           "group": "chatGpt@4",
           "when": "editorHasSelection && optimize-enabled"
         },
         {
-          "command": "vscode-chatgpt.explain",
+          "command": "vscode-gpt-4-turbo-extension.explain",
           "group": "chatGpt@5",
           "when": "editorHasSelection && explain-enabled"
         },
         {
-          "command": "vscode-chatgpt.addComments",
+          "command": "vscode-gpt-4-turbo-extension.addComments",
           "group": "chatGpt@6",
           "when": "editorHasSelection && addComments-enabled"
         },
         {
-          "command": "vscode-chatgpt.completeCode",
+          "command": "vscode-gpt-4-turbo-extension.completeCode",
           "group": "chatGpt@7",
           "when": "editorHasSelection && completeCode-enabled"
         },
         {
-          "command": "vscode-chatgpt.adhoc",
+          "command": "vscode-gpt-4-turbo-extension.adhoc",
           "group": "chatGpt@8",
           "when": "editorHasSelection && adhoc-enabled"
         },
         {
-          "command": "vscode-chatgpt.customPrompt1",
+          "command": "vscode-gpt-4-turbo-extension.customPrompt1",
           "group": "chatGpt@9",
           "when": "editorHasSelection && customPrompt1-enabled"
         },
         {
-          "command": "vscode-chatgpt.customPrompt2",
+          "command": "vscode-gpt-4-turbo-extension.customPrompt2",
           "group": "chatGpt@10",
           "when": "editorHasSelection && customPrompt2-enabled"
         }
@@ -95,61 +95,61 @@
     },
     "keybindings": [
       {
-        "command": "vscode-chatgpt.generateCode",
+        "command": "vscode-gpt-4-turbo-extension.generateCode",
         "key": "ctrl+shift+a",
         "mac": "cmd+shift+a",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.addTests",
+        "command": "vscode-gpt-4-turbo-extension.addTests",
         "key": "ctrl+k ctrl+shift+1",
         "mac": "cmd+k cmd+shift+1",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.findProblems",
+        "command": "vscode-gpt-4-turbo-extension.findProblems",
         "key": "ctrl+k ctrl+shift+2",
         "mac": "cmd+k cmd+shift+2",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.optimize",
+        "command": "vscode-gpt-4-turbo-extension.optimize",
         "key": "ctrl+k ctrl+shift+3",
         "mac": "cmd+k cmd+shift+3",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.explain",
+        "command": "vscode-gpt-4-turbo-extension.explain",
         "key": "ctrl+k ctrl+shift+4",
         "mac": "cmd+k cmd+shift+4",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.addComments",
+        "command": "vscode-gpt-4-turbo-extension.addComments",
         "key": "ctrl+k ctrl+shift+5",
         "mac": "cmd+k cmd+shift+5",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.completeCode",
+        "command": "vscode-gpt-4-turbo-extension.completeCode",
         "key": "ctrl+k ctrl+shift+6",
         "mac": "cmd+k cmd+shift+6",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.adhoc",
+        "command": "vscode-gpt-4-turbo-extension.adhoc",
         "key": "ctrl+k ctrl+shift+7",
         "mac": "cmd+k cmd+shift+7",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.customPrompt1",
+        "command": "vscode-gpt-4-turbo-extension.customPrompt1",
         "key": "ctrl+k ctrl+shift+8",
         "mac": "cmd+k cmd+shift+8",
         "when": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.customPrompt2",
+        "command": "vscode-gpt-4-turbo-extension.customPrompt2",
         "key": "ctrl+k ctrl+shift+9",
         "mac": "cmd+k cmd+shift+9",
         "when": "editorHasSelection"
@@ -157,86 +157,86 @@
     ],
     "commands": [
       {
-        "command": "vscode-chatgpt.freeText",
+        "command": "vscode-gpt-4-turbo-extension.freeText",
         "title": "ChatGPT: Ask anything"
       },
       {
-        "command": "vscode-chatgpt.clearSession",
+        "command": "vscode-gpt-4-turbo-extension.clearSession",
         "title": "ChatGPT: Reset session"
       },
       {
-        "command": "vscode-chatgpt.generateCode",
+        "command": "vscode-gpt-4-turbo-extension.generateCode",
         "title": "ChatGPT-Codex: Generate code",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.addTests",
+        "command": "vscode-gpt-4-turbo-extension.addTests",
         "title": "ChatGPT: Add tests",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.findProblems",
+        "command": "vscode-gpt-4-turbo-extension.findProblems",
         "title": "ChatGPT: Find bugs",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.optimize",
+        "command": "vscode-gpt-4-turbo-extension.optimize",
         "title": "ChatGPT: Optimize",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.explain",
+        "command": "vscode-gpt-4-turbo-extension.explain",
         "title": "ChatGPT: Explain",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.addComments",
+        "command": "vscode-gpt-4-turbo-extension.addComments",
         "title": "ChatGPT: Add comments",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.completeCode",
+        "command": "vscode-gpt-4-turbo-extension.completeCode",
         "title": "ChatGPT: Complete code",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.adhoc",
+        "command": "vscode-gpt-4-turbo-extension.adhoc",
         "title": "ChatGPT: Ad-hoc prompt",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.customPrompt1",
+        "command": "vscode-gpt-4-turbo-extension.customPrompt1",
         "title": "ChatGPT: Custom prompt 1",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.customPrompt2",
+        "command": "vscode-gpt-4-turbo-extension.customPrompt2",
         "title": "ChatGPT: Custom prompt 2",
         "enablement": "editorHasSelection"
       },
       {
-        "command": "vscode-chatgpt.clearConversation",
+        "command": "vscode-gpt-4-turbo-extension.clearConversation",
         "title": "ChatGPT: Clear conversation"
       },
       {
-        "command": "vscode-chatgpt.exportConversation",
+        "command": "vscode-gpt-4-turbo-extension.exportConversation",
         "title": "ChatGPT: Export conversation"
       }
     ],
     "viewsContainers": {
       "activitybar": [
         {
-          "id": "vscode-chatgpt-view-container",
+          "id": "vscode-gpt-4-turbo-extension-view-container",
           "title": "ChatGPT",
           "icon": "images/ai-logo-in.png"
         }
       ]
     },
     "views": {
-      "vscode-chatgpt-view-container": [
+      "vscode-gpt-4-turbo-extension-view-container": [
         {
           "type": "webview",
-          "id": "vscode-chatgpt.view",
+          "id": "vscode-gpt-4-turbo-extension.view",
           "name": "Conversation window"
         }
       ]
