@@ -1,4 +1,4 @@
-<h3 align="center"><img src="https://raw.githubusercontent.com/gencay/vscode-chatgpt/main/images/ai-logo.png" height="64"><br>An Unofficial VS Code - Chat GPT extension</h3>
+<h3 align="center"><img src="" height="64"><br>An Unofficial VS Code - GPT 4 Turbo extension</h3>
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=gencay.vscode-chatgpt" alt="Marketplace version">
@@ -12,24 +12,7 @@
     </a>
 </p>
 
-## The most loved\* ChatGPT extension in VS Code open-sourced
-
-> The project is built as a hobby project - With **no affiliation** to any organization
->
-> The functionality fully relies on OpenAI services without any affiliation to them
->
-> \*Downloaded by ~500,000 developers with more than 100 5 star ratings within 3 months of release
-
-#### Try out this extension on marketplace: [ChatGPT - Genie AI](https://marketplace.visualstudio.com/items?itemName=genieai.chatgpt-vscode)
-
-The extension is stripped out of Browser capabilities and published as an integration point for community to continue utilizing GPT models in Sidebar conversations or responses in editor, favorites, personalization and more.
-
-## Forks and continuation of the original project
-
-> Feel free to contribute here.
-
-1. Continued by [ChatGPT - Genie AI](https://marketplace.visualstudio.com/items?itemName=genieai.chatgpt-vscode)
-2. Forked by @Christopher-Hayes: [ChatGPT Reborn](https://marketplace.visualstudio.com/items?itemName=chris-hayes.chatgpt-reborn)
+## GPT 4 Turbo extension in VS Code open-sourced
 
 ## Features
 
@@ -48,6 +31,8 @@ The extension is stripped out of Browser capabilities and published as an integr
 > If you are developing completely another extension and release it to the public, make sure you follow this.
 
 This project is released under ISC License - See root License for details. Copyright notice and the respective permission notices must appear in all copies.
+
+This repo is forked from the original repo here https://github.com/gencay/vscode-chatgpt.
 
 ## How to build and run
 
