@@ -14,6 +14,8 @@
 
 ## GPT 4 Turbo extension in VS Code open-sourced
 
+This project is not ready to be on market place yet. If you use it, play with your own risks.
+
 ## Features
 
 - ➕ Use GPT-4, GPT-3.5, GPT3 or Codex models using your OpenAI API Key
